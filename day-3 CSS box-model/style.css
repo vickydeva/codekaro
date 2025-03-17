@@ -1,0 +1,152 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+*,
+::after,
+::before {
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #0a0a0a;
+  color: #ffff;
+}
+
+.main {
+  width: 500px;
+  margin: 200px auto;
+  border: 1px solid lightgray;
+  border-radius: 14px;
+  padding-inline: 32px;
+  background-color: #352f44;
+  color: violet;
+}
+.heading {
+  margin-block: 12px;
+  border-bottom: 1px solid lightgray;
+  text-align: center;
+  
+}
+
+.cards {
+  list-style: circle;
+  font-size: large;
+  
+}
+.card-item {
+  padding: 8px;
+  margin: 12px;
+}
+
+a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+/* card-common classes */
+
+.card {
+  background-color: #352f44;
+  width: 400px;
+  border-radius: 12px;
+  margin: 100px auto 50px;
+  padding: 30px;
+}
+.card-header {
+  text-align: center;
+  margin-bottom: 24px;
+}
+h1 {
+  font-size: 26px;
+  font-weight: 500;
+}
+p {
+  font-size: 14px;
+  font-weight: 200;
+}
+.navigation{
+ display: flex;
+ justify-content: center;
+}
+.nav-icon{
+  height: 24px;
+}
+
+/* card-1 */
+
+label {
+  color: gray;
+  font-size: 12px;
+}
+
+input,
+input:active,
+select,
+select:active {
+  width: 100%;
+  border: 1px solid rgba(211, 211, 211, 0.2);
+  padding: 12px;
+  border-radius: 5px;
+  background-color: #352f44;
+  color: white;
+  font-size: 15px;
+  font-weight: 200;
+}
+input::placeholder {
+  color: white;
+  font-weight: lighter;
+}
+input:focus {
+  border: 2px solid rgb(138, 43, 226);
+  outline: none;
+}
+.input-fields {
+  margin-bottom: 16px;
+}
+
+/* card-2 */
+
+.profile-btn {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  border: none;
+  background-color: inherit;
+  color: inherit;
+  font-size: 15px;
+  padding: 12px;
+  cursor: pointer;
+}
+.active {
+  background-color: rgba(7, 1, 15, 0.3);
+  border-radius: 8px;
+}
+
+/* card-3 */
+
+.bold {
+  font-weight: 700;
+}
+.validate-btn {
+  margin-top: 12px;
+  background-color: rgba(138, 43, 226, 0.4);
+  color: inherit;
+  font-size: 14px;
+  width: 100%;
+  border: none;
+  padding: 12px;
+  border-radius: 5px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.sprint-img {
+  height: 220px;
+}
+
+/* Hide arrows in input[type=number] for WebKit browsers */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
